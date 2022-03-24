@@ -23,7 +23,8 @@ set modeline
 "This makes Vim show a status line even when only one window is shown.
 set ls=2
 
-set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+"https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab smarttab
 set autoindent
 
 " show the matching part of the pair for [] {} and ()
