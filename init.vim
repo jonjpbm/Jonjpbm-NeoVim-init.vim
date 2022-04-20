@@ -53,7 +53,7 @@ let g:terraform_align=1
 " http://vimdoc.sourceforge.net/htmldoc/spell.html
 set spell spelllang=en_us      "enable spell check with language = en_us
 highlight SpellBad cterm=underline ctermfg=NONE ctermbg=NONE   "just underline bad spell
-highlight SpellCap cterm=underline ctermfg=NONE ctermbg=009   "just underline bad spell
+highlight SpellCap cterm=NONE ctermfg=NONE ctermbg=009   "just underline bad spell
 " SpellLocal finds words and compares then another language (en_us vs en_ca) and highlights them
 highlight SpellLocal cterm=NONE ctermfg=NONE ctermbg=NONE   "just underline bad spell
 
